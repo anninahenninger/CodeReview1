@@ -13,7 +13,8 @@ public class Bonus2 {
                 parameters[i] = Integer.parseInt(args[i]);
             }
             for (int i = 0; i < args.length; i = i + 2) {
-                System.out.println("The area of the given rectangular is " + calculateRectArea(parameters[i], parameters[i + 1]) + "m2");
+                System.out.println("The area of the given rectangular is " +
+                        calculateRectArea(parameters[i], parameters[i + 1]) + "m2");
             }
         }catch (Exception e){
             System.out.println("Check your input, maybe there is a value missing");
